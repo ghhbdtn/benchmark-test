@@ -76,6 +76,7 @@ public class MyBenchmark {
                 currentLine = reader.readLine();
             }
         }
+        Pair<Integer, Integer> result = new Pair<>(buy.getFirst(), sell.getFirst());
     }
 
     static public void optimizeBuyAndSell_2(String inputName)  throws IOException {
